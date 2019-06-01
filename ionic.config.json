@@ -1,5 +1,7 @@
 {
   "name": "dualPhotography",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
