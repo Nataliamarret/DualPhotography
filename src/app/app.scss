@@ -4,3 +4,12 @@
 // styles are for the entire app and not just one component. Additionally, this 
 // file can hold Sass mixins, functions, and placeholder classes to be imported 
 // and used throughout the application.
+
+//pone transparente el fondo de la app para poder ver la cámara
+ion-app, ion-content {
+    background-color: transparent !important;
+  }
+//tomar fotos con resolución 320*320
+  takePicture() {
+    CameraPreview.takePicture ({maxWidth: 320, maxHeight: 320});
+}
